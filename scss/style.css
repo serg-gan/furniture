@@ -1195,5 +1195,16 @@ ul, li, a {
     padding-bottom: 20px;
     text-align: center;
   }
+  .footer__row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__row:last-child {
+    margin-left: 4%;
+  }
+  .footer__row:first-child {
+    margin-right: 27%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
